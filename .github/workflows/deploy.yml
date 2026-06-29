@@ -47,7 +47,7 @@ jobs:
 
     - name: Run all scripts
       run: |
-        node scripts/url-checker.js -t ${{ vars.URL_CHECKER_TIMEOUT }} -d src/posts 
+        node script/url-checker.js -t ${{ vars.URL_CHECKER_TIMEOUT }} -d src/posts 
 
     
 
